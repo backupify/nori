@@ -29,7 +29,7 @@ module Nori
     # 00:00:00          midnight
     # 24:00:00          midnight
 
-    XS_TIME = /^\d{2}:\d{2}:\d{2}[Z\.\-\+]?\d*:?\d*$/
+    XS_TIME = /^\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:?\d{2})?$/
 
     # Simple xs:date Regexp.
     # Valid xs:date formats
